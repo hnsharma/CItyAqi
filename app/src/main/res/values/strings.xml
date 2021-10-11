@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CityAQI</string>
+    <string name="close">Close</string>
+    <string name="no_enough_data_found">No enough data found</string>
+</resources>

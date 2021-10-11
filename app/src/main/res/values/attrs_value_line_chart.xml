@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ValueLineChart">
+        <attr name="egCurveSmoothness"              format="float"/>
+        <attr name="egUseCubic"                     format="boolean"/>
+        <attr name="egUseOverlapFill"               format="boolean"/>
+        <attr name="egLineStroke"                   format="dimension"/>
+        <attr name="egShowValueIndicator"           format="boolean"/>
+        <attr name="egIndicatorWidth"               format="dimension"/>
+        <attr name="egIndicatorLineColor"           format="color"/>
+        <attr name="egIndicatorTextColor"           format="color"/>
+        <attr name="egIndicatorTextSize"            format="dimension"/>
+        <attr name="egIndicatorLeftPadding"         format="dimension"/>
+        <attr name="egIndicatorTopPadding"          format="dimension"/>
+        <attr name="egShowStandardValue"            format="boolean"/>
+        <attr name="egXAxisStroke"                  format="dimension"/>
+        <attr name="egActivateIndicatorShadow"      format="boolean"/>
+        <attr name="egIndicatorShadowStrength"      format="dimension"/>
+        <attr name="egIndicatorShadowColor"         format="color"/>
+        <attr name="egIndicatorTextUnit"            format="string"/>
+        <attr name="egShowLegendBeneathIndicator"   format="boolean"/>
+        <attr name="egUseDynamicScaling"            format="boolean"/>
+        <attr name="egScalingFactor"                format="float"/>
+        <attr name="egMaxXZoom"                     format="float"/>
+        <attr name="egMaxYZoom"                     format="float"/>
+        <attr name="startColor"                     format="color"/>
+        <attr name="centerColor"                    format="color"/>
+        <attr name="endColor"                       format="color"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="DonutProgress">
+        <attr name="donut_progress" format="integer"/>
+        <attr name="donut_max" format="integer"/>
+
+        <attr name="donut_unfinished_color" format="color"/>
+        <attr name="donut_finished_color" format="color"/>
+        <attr name="donut_finished_color_end" format="color"/>
+        <attr name="donut_finished_color_meddel" format="color"/>
+        <attr name="donut_finished_stroke_width" format="dimension"/>
+        <attr name="donut_unfinished_stroke_width" format="dimension"/>
+
+
+        <attr name="donut_text_size" format="dimension"/>
+        <attr name="donut_text_color" format="color"/>
+
+        <attr name="donut_prefix_text" format="string"/>
+        <attr name="donut_suffix_text" format="string"/>
+        <attr name="donut_text" format="string"/>
+
+        <attr name="donut_background_color" format="color"/>
+
+        <attr name="donut_inner_bottom_text" format="string"/>
+        <attr name="donut_inner_bottom_text_size" format="dimension"/>
+        <attr name="donut_inner_bottom_text_color" format="color"/>
+
+        <attr name="donut_circle_starting_degree" format="integer" />
+    </declare-styleable>
+
+</resources>
